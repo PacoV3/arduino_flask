@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Sistema Horarios</title>
+</head>
+<body>
+    
+<body>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top mb-5">
+        <a class="navbar-brand">
+            Arduino-flask
+        </a>
+        <button class="navbar-toggler pr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+            
+        </div>
+</nav>
+</div>
+<br>
+<div class="container-fluid w-25 mt-5">
+    <div id="data" class="mt-5">
+        <div id="title" class="title">
+            <p id="chatName">Potenciometro</p>
+        </div>
+        <div class="espacioDatos">
+          <div class="serial">
+            <div id="datos">
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+</div>
+
+    {% block content %}
+    
+    {% endblock%}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../static/potentiometer.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js "></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+</body>
+</html>
